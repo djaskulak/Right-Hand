@@ -1,0 +1,6 @@
+Color Palette: 
+    * Jet: #3A3A3A
+    * Fawn: #D4A373
+    * Pale Spring Bud: #CCD5AE
+    * Morning Blue: #84A59D
+    * Jasmine: #FFDD89
