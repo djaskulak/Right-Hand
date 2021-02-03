@@ -5,7 +5,6 @@ Color Palette:
     * Morning Blue: #84A59D
     * Jasmine: #FFDD89
 
-
 Fonts (APIs are linked in the index.html, referenced in CSS): 
     * Headers: Lilita One (regular)
     * Monserrat (medium)
