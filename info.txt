@@ -4,3 +4,5 @@ Color Palette:
     * Pale Spring Bud: #CCD5AE
     * Morning Blue: #84A59D
     * Jasmine: #FFDD89
+
+this is showing how to make a pull request
