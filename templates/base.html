@@ -13,10 +13,30 @@
       href="{{ url_for ('static', filename =
     'css/styles.css')}}"
     />
+    <link
+      rel="javascript"
+      href="{{ url_for ('static', filename =
+    'js/scripts.js')}}"
+    />
 
     {% block head %}{% endblock %}
   </head>
   <body>
+    <header>
+      <p>Helping hands site.</p>
+      <nav>
+        <ul>
+          <li><a href="#">Homepage</a></li>
+          <li><a href="#">Learn More</a></li>
+          <li><a href="#">Pools</a></li>
+        </ul>
+      </nav>
+    </header>
     {% block body %}{% endblock %}
+    <footer>
+      <small>EMAIL: myemail@email.com</small> <br />
+      <small>PHONE: ###-###-####</small> <br />
+      <small>123 Address Street</small>
+    </footer>
   </body>
 </html>
