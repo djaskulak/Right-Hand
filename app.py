@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -8,6 +8,11 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/info')
+def info():
+    return render_template('info.html')
+
+
 # -------------------------------- END -------------------------------
 if __name__ == "__main__":
-    app.run(debug=True, port=3000)
+    app.run(debug=True)
