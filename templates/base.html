@@ -4,19 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keyword" content="Right Hand, Resource Site, Spd Project" />
-    <meta
-      name="author"
-      content="Ignl Razin, Danika Gonzalez, Hani Jandali, Anita Bangali, Stanly"
+    <!-- Place Bootstrap Link Above For Styles -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'styles/style.css')}}"
     />
     <link
       rel="stylesheet"
-      href="{{ url_for ('static', filename =
-    'css/styles.css')}}"
+      href="{{ url_for('static', filename = 'js/scripts.js')}}"
     />
-
-    {% block head %}{% endblock %}
+    <title>{% block title %}{% endblock %}</title>
   </head>
   <body>
+    <header>
+      <p>Helping hands site.</p>
+      <nav>
+        <ul>
+          <li><a href="#">Homepage</a></li>
+          <li><a href="#">Learn More</a></li>
+          <li><a href="#">Pools</a></li>
+        </ul>
+      </nav>
+    </header>
     {% block body %}{% endblock %}
+    <footer>
+      <small>EMAIL: myemail@email.com</small> <br />
+      <small>PHONE: ###-###-####</small> <br />
+      <small>123 Address Street</small>
+    </footer>
   </body>
 </html>
