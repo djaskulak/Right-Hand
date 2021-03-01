@@ -24,10 +24,10 @@
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat";
   font-weight: normal;
   font-style: normal;
-  color: #121212; }
+  color: #3a3a3a; }
 
 * {
   margin: 0;
@@ -61,9 +61,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lilita One";
   font-weight: 700;
-  color: #121212;
+  color: #3a3a3a;
   margin: 0px; }
 
 h1 {
@@ -93,7 +93,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #121212;
+  color: #3a3a3a;
   margin: 0px; }
 
 .bg_cover {
@@ -118,7 +118,7 @@ p {
   padding: 0 32px;
   font-size: 16px;
   line-height: 48px;
-  color: #0067f4;
+  color: #CCD5AE;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -139,7 +139,7 @@ p {
   font-size: 50px;
   font-weight: 600;
   line-height: 55px;
-  color: #121212; }
+  color: #3a3a3a; }
   @media (max-width: 767px) {
     .section-title .title {
       font-size: 30px;
@@ -186,7 +186,7 @@ p {
     .navgition .navbar .navbar-toggler .toggler-icon {
       width: 30px;
       height: 2px;
-      background-color: #121212;
+      background-color:#3a3a3a;
       margin: 5px 0;
       display: block;
       position: relative;
@@ -243,7 +243,7 @@ p {
         line-height: 24px;
         font-weight: 700;
         padding: 26px 0;
-        color: #121212;
+        color: #3a3a3a;
         text-transform: uppercase;
         position: relative;
         -webkit-transition: all 0.3s ease-out 0s;
@@ -264,7 +264,7 @@ p {
           content: '';
           width: 8px;
           height: 4px;
-          background-color: #0067f4;
+          background-color: #CCD5AE;
           left: 50%;
           margin: 0 2px;
           bottom: 14px;
@@ -284,7 +284,7 @@ p {
           left: auto;
           right: 50%; }
       .navgition .navbar .navbar-nav .nav-item.active > a, .navgition .navbar .navbar-nav .nav-item:hover > a {
-        color: #0067f4; }
+        color: #CCD5AE; }
         .navgition .navbar .navbar-nav .nav-item.active > a::before, .navgition .navbar .navbar-nav .nav-item.active > a::after, .navgition .navbar .navbar-nav .nav-item:hover > a::before, .navgition .navbar .navbar-nav .nav-item:hover > a::after {
           opacity: 1; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -318,7 +318,7 @@ p {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
         .navgition .navbar .navbar-social ul li a:hover {
-          color: #0067f4; }
+          color: #CCD5AE; }
 
 .header-hero {
   height: 850px;
@@ -352,7 +352,7 @@ p {
     .header-hero .header-content .header-title {
       font-size: 44px;
       line-height: 55px;
-      color: #121212;
+      color: #3a3a3a;
       font-weight: 600; }
       @media (max-width: 767px) {
         .header-hero .header-content .header-title {
@@ -392,9 +392,9 @@ p {
               height: 100%;
               top: 0;
               left: 0;
-              background-image: -webkit-linear-gradient(left, #0067f4, #2bdbdc);
-              background-image: -o-linear-gradient(left, #0067f4, #2bdbdc);
-              background-image: linear-gradient(to right, #0067f4, #2bdbdc);
+              background-image: -webkit-linear-gradient(left, #CCD5AE, #FFDD89);
+              background-image: -o-linear-gradient(left, #CCD5AE, #FFDD89);
+              background-image: linear-gradient(to right, #CCD5AE, #FFDD89);
               background-position: right center;
               z-index: -1;
               -webkit-transition: all 0.3s ease-out 0s;
@@ -403,9 +403,9 @@ p {
               -o-transition: all 0.3s ease-out 0s;
               transition: all 0.3s ease-out 0s; }
             .header-hero .header-content .header-btn li a.main-btn.btn-one:hover::before {
-              background-image: -webkit-linear-gradient(right, #0067f4, #2bdbdc);
-              background-image: -o-linear-gradient(right, #0067f4, #2bdbdc);
-              background-image: linear-gradient(to left, #0067f4, #2bdbdc);
+              background-image: -webkit-linear-gradient(right, #CCD5AE, #FFDD89);
+              background-image: -o-linear-gradient(right, #CCD5AE, #FFDD89);
+              background-image: linear-gradient(to left, #CCD5AE, #FFDD89);
               background-position: left center;
               -webkit-transition: all none ease-out 0s;
               -moz-transition: all none ease-out 0s;
@@ -442,7 +442,7 @@ p {
 
 .services-content .services-icon i {
   font-size: 64px;
-  color: #0067f4; }
+  color: #CCD5AE; }
 
 .services-content .services-content {
   padding-left: 15px; }
@@ -458,11 +458,11 @@ p {
     font-size: 24px;
     font-weight: 500;
     line-height: 30px;
-    color: #121212; }
+    color: #3a3a3a; }
   .services-content .services-content .text {
     font-size: 14px;
     line-height: 20px;
-    color: #121212;
+    color: #3a3a3a;
     margin-top: 8px; }
 
 .services-image {
@@ -534,7 +534,7 @@ p {
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
-    color: #121212;
+    color: #3a3a3a;
     position: relative;
     padding-bottom: 8px; }
     .single-pricing .pricing-header .sub-title::before {
@@ -553,7 +553,7 @@ p {
     font-weight: 600;
     line-height: 80px;
     margin-top: 32px;
-    color: #121212; }
+    color: #3a3a3a; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
       .single-pricing .pricing-header .price {
         font-size: 50px;
@@ -577,7 +577,7 @@ p {
     .single-pricing .pricing-list ul li {
       font-size: 16px;
       line-height: 24px;
-      color: #121212;
+      color: #3a3a3a;
       margin-top: 16px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
         .single-pricing .pricing-list ul li {
@@ -592,18 +592,18 @@ p {
           font-size: 16px;
           margin-top: 16px; } }
       .single-pricing .pricing-list ul li i {
-        color: #0067f4;
+        color: #CCD5AE;
         margin-right: 8px; }
   .single-pricing .pricing-btn {
     margin-top: 42px; }
     .single-pricing .pricing-btn .main-btn {
-      background-color: #0067f4;
+      background-color: #CCD5AE;
       border-radius: 50px;
       color: #fff;
-      border-color: #0067f4; }
+      border-color: #CCD5AE; }
       .single-pricing .pricing-btn .main-btn:hover {
-        background-color: #005ad5;
-        border-color: #005ad5; }
+        background-color: #CCD5AE;
+        border-color: #CCD5AE; }
   .single-pricing .buttom-shape {
     position: absolute;
     bottom: -20px;
@@ -613,7 +613,7 @@ p {
 .single-pricing.pro .pricing-header .sub-title::before {
   right: auto;
   left: 0;
-  background-color: #0067f4; }
+  background-color: #CCD5AE; }
 
 .single-pricing.pro .pricing-baloon {
   position: absolute;
@@ -624,7 +624,7 @@ p {
 .single-pricing.enterprise .pricing-header .sub-title::before {
   right: 0;
   left: auto;
-  background-color: #0067f4; }
+  background-color: #CCD5AE; }
 
 .single-pricing.enterprise .pricing-flower {
   position: absolute;
@@ -647,7 +647,7 @@ p {
     5.CALL TO ACTION css 
 ===========================*/
 .call-to-action {
-  background-color: #0067f4;
+  background-color: #CCD5AE;
   position: relative; }
 
 .call-action-image {
@@ -702,7 +702,7 @@ p {
     margin: 24px auto 0; }
     .call-action-content .call-newsletter i {
       font-size: 26px;
-      color: #0067f4;
+      color: #CCD5AE;
       position: absolute;
       left: 18px;
       top: 15px; }
@@ -739,7 +739,7 @@ p {
       position: absolute;
       top: 4px;
       right: 4px;
-      background-color: #0067f4;
+      background-color: #CCD5AE;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -751,9 +751,9 @@ p {
           right: auto;
           margin-top: 15px;
           background-color: #fff;
-          color: #0067f4; } }
+          color: #CCD5AE; } }
       .call-action-content .call-newsletter button:hover {
-        background-color: #005ad5;
+        background-color: #CCD5AE;
         color: #fff; }
 
 /*===========================
@@ -777,7 +777,7 @@ p {
 p.form-message.success,
 p.form-message.error {
   font-size: 16px;
-  color: #121212;
+  color: #3a3a3a;
   background: #cbced1;
   padding: 10px 15px;
   margin-left: 15px;
@@ -819,10 +819,10 @@ p.form-message.error {
     resize: none; }
   .contact-form .single-form .main-btn {
     border-radius: 50px;
-    background-color: #0067f4;
+    background-color: #CCD5AE;
     color: #fff; }
     .contact-form .single-form .main-btn:hover {
-      background-color: #005ad5; }
+      background-color: #CCD5AE; }
 
 .list-unstyled li {
   font-size: 13px;
@@ -862,7 +862,7 @@ p.form-message.error {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .footer-logo-support .footer-logo .social li a:hover {
-        color: #0067f4; }
+        color: #CCD5AE; }
 
 .footer-logo-support .footer-support span {
   font-size: 20px;
@@ -891,7 +891,7 @@ p.form-message.error {
     .footer-link ul li a {
       font-size: 16px;
       line-height: 24px;
-      color: #121212;
+      color: #3a3a3a;
       margin-top: 16px;
       font-weight: 500;
       -webkit-transition: all 0.3s ease-out 0s;
@@ -900,7 +900,7 @@ p.form-message.error {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .footer-link ul li a:hover {
-        color: #0067f4; }
+        color: #CCD5AE; }
 
 .footer-newsletter {
   margin-top: 32px; }
@@ -937,7 +937,7 @@ p.form-message.error {
       border-bottom-right-radius: 50px;
       border: 0;
       font-size: 20px;
-      color: #121212;
+      color: #3a3a3a;
       cursor: pointer;
       background: none; }
   .footer-newsletter .text {
@@ -958,7 +958,7 @@ p.form-message.error {
   line-height: 50px;
   border-radius: 50%;
   text-align: center;
-  background-color: #0067f4;
+  background-color: #CCD5AE;
   bottom: 10px;
   right: 20px;
   z-index: 999;
@@ -969,5 +969,5 @@ p.form-message.error {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   display: none; }
   .back-to-top:hover {
-    background-color: #005ad5;
+    background-color: #CCD5AE;
     color: #fff; }
