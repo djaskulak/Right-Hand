@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Assistance
+{% endblock %}
+
+{% block content %}
+<h1>Hello, nice to meet you!</h1>
+<form action="/apply" method="POST">
+    <fieldset>
+        <legend>Please fill out form below:</legend>
+
+        <label for="first_name">What is your first name?</label>
+        <input type="text" name="first_name" id="first_name">
+        <br><br>
+        
+        <label for="last_name">What is your last name?</label>
+        <input type="text" name="last_name" id="last_name">
+        <br><br>
+        
+        <label for="last_name">What is your email?</label>
+        <input type="text" name="email" id="email">
+        <br><br>
+
+        
+        <button type="submit" name="submit"></button>
+    </fieldset>
+</form>
+{% endblock %}
