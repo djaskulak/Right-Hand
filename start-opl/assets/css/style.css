@@ -118,7 +118,7 @@ p {
   padding: 0 32px;
   font-size: 16px;
   line-height: 48px;
-  color: #CCD5AE;
+  color: #84A59D;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -264,7 +264,7 @@ p {
           content: '';
           width: 8px;
           height: 4px;
-          background-color: #CCD5AE;
+          background-color: #84A59D;
           left: 50%;
           margin: 0 2px;
           bottom: 14px;
@@ -284,7 +284,7 @@ p {
           left: auto;
           right: 50%; }
       .navgition .navbar .navbar-nav .nav-item.active > a, .navgition .navbar .navbar-nav .nav-item:hover > a {
-        color: #CCD5AE; }
+        color: #84A59D; }
         .navgition .navbar .navbar-nav .nav-item.active > a::before, .navgition .navbar .navbar-nav .nav-item.active > a::after, .navgition .navbar .navbar-nav .nav-item:hover > a::before, .navgition .navbar .navbar-nav .nav-item:hover > a::after {
           opacity: 1; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -318,7 +318,7 @@ p {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
         .navgition .navbar .navbar-social ul li a:hover {
-          color: #CCD5AE; }
+          color: #84A59D; }
 
 .header-hero {
   height: 850px;
@@ -392,9 +392,9 @@ p {
               height: 100%;
               top: 0;
               left: 0;
-              background-image: -webkit-linear-gradient(left, #CCD5AE, #FFDD89);
-              background-image: -o-linear-gradient(left, #CCD5AE, #FFDD89);
-              background-image: linear-gradient(to right, #CCD5AE, #FFDD89);
+              background-image: -webkit-linear-gradient(left, #84A59D, #FFDD89);
+              background-image: -o-linear-gradient(left, #84A59D, #FFDD89);
+              background-image: linear-gradient(to right, #84A59D, #FFDD89);
               background-position: right center;
               z-index: -1;
               -webkit-transition: all 0.3s ease-out 0s;
@@ -403,9 +403,9 @@ p {
               -o-transition: all 0.3s ease-out 0s;
               transition: all 0.3s ease-out 0s; }
             .header-hero .header-content .header-btn li a.main-btn.btn-one:hover::before {
-              background-image: -webkit-linear-gradient(right, #CCD5AE, #FFDD89);
-              background-image: -o-linear-gradient(right, #CCD5AE, #FFDD89);
-              background-image: linear-gradient(to left, #CCD5AE, #FFDD89);
+              background-image: -webkit-linear-gradient(right, #84A59D, #FFDD89);
+              background-image: -o-linear-gradient(right, #84A59D, #FFDD89);
+              background-image: linear-gradient(to left, #84A59D, #FFDD89);
               background-position: left center;
               -webkit-transition: all none ease-out 0s;
               -moz-transition: all none ease-out 0s;
@@ -442,7 +442,7 @@ p {
 
 .services-content .services-icon i {
   font-size: 64px;
-  color: #CCD5AE; }
+  color: #84A59D; }
 
 .services-content .services-content {
   padding-left: 15px; }
@@ -511,7 +511,7 @@ p {
 .pricing-area {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: #f4f6f7; }
+  background-color: #CCD5AE; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .pricing-area {
       padding-top: 100px;
@@ -592,18 +592,18 @@ p {
           font-size: 16px;
           margin-top: 16px; } }
       .single-pricing .pricing-list ul li i {
-        color: #CCD5AE;
+        color: #84A59D;
         margin-right: 8px; }
   .single-pricing .pricing-btn {
     margin-top: 42px; }
     .single-pricing .pricing-btn .main-btn {
-      background-color: #CCD5AE;
+      background-color: #84A59D;
       border-radius: 50px;
       color: #fff;
-      border-color: #CCD5AE; }
+      border-color: #84A59D; }
       .single-pricing .pricing-btn .main-btn:hover {
-        background-color: #CCD5AE;
-        border-color: #CCD5AE; }
+        background-color: #84A59D;
+        border-color: #84A59D; }
   .single-pricing .buttom-shape {
     position: absolute;
     bottom: -20px;
@@ -613,7 +613,7 @@ p {
 .single-pricing.pro .pricing-header .sub-title::before {
   right: auto;
   left: 0;
-  background-color: #CCD5AE; }
+  background-color: #84A59D; }
 
 .single-pricing.pro .pricing-baloon {
   position: absolute;
@@ -624,7 +624,7 @@ p {
 .single-pricing.enterprise .pricing-header .sub-title::before {
   right: 0;
   left: auto;
-  background-color: #CCD5AE; }
+  background-color: #84A59D; }
 
 .single-pricing.enterprise .pricing-flower {
   position: absolute;
@@ -647,7 +647,7 @@ p {
     5.CALL TO ACTION css 
 ===========================*/
 .call-to-action {
-  background-color: #CCD5AE;
+  background-color: #84A59D;
   position: relative; }
 
 .call-action-image {
@@ -702,7 +702,7 @@ p {
     margin: 24px auto 0; }
     .call-action-content .call-newsletter i {
       font-size: 26px;
-      color: #CCD5AE;
+      color: #84A59D;
       position: absolute;
       left: 18px;
       top: 15px; }
@@ -739,7 +739,7 @@ p {
       position: absolute;
       top: 4px;
       right: 4px;
-      background-color: #CCD5AE;
+      background-color: #84A59D;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -751,9 +751,9 @@ p {
           right: auto;
           margin-top: 15px;
           background-color: #fff;
-          color: #CCD5AE; } }
+          color: #84A59D; } }
       .call-action-content .call-newsletter button:hover {
-        background-color: #CCD5AE;
+        background-color: #84A59D;
         color: #fff; }
 
 /*===========================
@@ -761,7 +761,8 @@ p {
 ===========================*/
 .contact-area {
   padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-bottom: 120px; 
+  background-color: #CCD5AE;}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .contact-area {
       padding-top: 100px;
@@ -819,10 +820,10 @@ p.form-message.error {
     resize: none; }
   .contact-form .single-form .main-btn {
     border-radius: 50px;
-    background-color: #CCD5AE;
+    background-color: #84A59D;
     color: #fff; }
     .contact-form .single-form .main-btn:hover {
-      background-color: #CCD5AE; }
+      background-color: #84A59D; }
 
 .list-unstyled li {
   font-size: 13px;
@@ -834,7 +835,7 @@ p.form-message.error {
        7.FOOTER css 
 ===========================*/
 .footer-area {
-  background-color: #f4f6f7; }
+  background-color: #CCD5AE; }
 
 .footer-widget {
   padding-top: 90px;
@@ -862,7 +863,7 @@ p.form-message.error {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .footer-logo-support .footer-logo .social li a:hover {
-        color: #CCD5AE; }
+        color: #84A59D; }
 
 .footer-logo-support .footer-support span {
   font-size: 20px;
@@ -900,7 +901,7 @@ p.form-message.error {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .footer-link ul li a:hover {
-        color: #CCD5AE; }
+        color: #84A59D; }
 
 .footer-newsletter {
   margin-top: 32px; }
@@ -944,7 +945,7 @@ p.form-message.error {
     margin-top: 16px; }
 
 .footer-copyright {
-  background-color: #2b354f; }
+  background-color: #84A59D; }
 
 .copyright {
   padding: 23px 0; }
@@ -958,7 +959,7 @@ p.form-message.error {
   line-height: 50px;
   border-radius: 50%;
   text-align: center;
-  background-color: #CCD5AE;
+  background-color: #84A59D;
   bottom: 10px;
   right: 20px;
   z-index: 999;
@@ -969,5 +970,5 @@ p.form-message.error {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   display: none; }
   .back-to-top:hover {
-    background-color: #CCD5AE;
+    background-color: #84A59D;
     color: #fff; }
