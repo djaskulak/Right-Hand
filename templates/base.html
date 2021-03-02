@@ -5,13 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keyword" content="Right Hand, Resource Site, Spd Project" />
     <!-- Place Bootstrap Link Above For Styles -->
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+  ================================================== -->
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename = 'styles/style.css')}}"
+      href="{{ url_for('static', filename = 'styles/base.css')}}"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'styles/vendor.css')}}"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'styles/main.css')}}"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename =
+    'styles/style.css')}}"
+    />
+
+    <!-- script
+  ================================================== -->
+    <script src="{{ url_for('static', filename = 'js/modernizr.js')}}"></script>
+    <script src="{{ url_for('static', filename = 'js/pace.min.js')}}"></script>
+
+    <!-- favicons
+ ================================================== -->
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename = 'styles/favicon.ico')}}"
+      type="image/x-icon"
     />
     <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename = 'js/scripts.js')}}"
+      rel="icon"
+      href="{{ url_for('static', filename = 'styles/favicon.ico')}}"
+      type="image/x-icon"
     />
     <title>{% block title %}{% endblock %}</title>
   </head>
