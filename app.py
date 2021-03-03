@@ -12,6 +12,10 @@ def index():
 def info():
     return render_template('pagetwo.html')
 
+@app.route('/submittal')
+def job():
+    return render_template('thirdpage.html')
+
 
 # -------------------------------- END -------------------------------
 if __name__ == "__main__":
