@@ -8,9 +8,9 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/info')
+@app.route('/itemsavailable')
 def info():
-    return render_template('info.html')
+    return render_template('pagetwo.html')
 
 
 # -------------------------------- END -------------------------------

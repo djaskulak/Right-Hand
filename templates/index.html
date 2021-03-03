@@ -37,6 +37,7 @@
 
 </head>
 
+
 <body>
 
     <!--====== HEADER PART START ======-->
@@ -113,7 +114,7 @@
     <!--====== HEADER PART ENDS ======-->
 
     <!--====== SERVICES PART START ======-->
-
+ {% block service %}
     <section id="service" class="services-area">
         <div class="container">
             <div class="row">
@@ -181,11 +182,12 @@
             </div>
         </div> <!-- services image -->
     </section>
+{% endblock %}
 
     <!--====== SERVICES PART ENDS ======-->
 
     <!--====== PRICING PART START ======-->
-
+{% block user %}
     <section id="users" class="users-area">
         <div class="container">
             <div class="row justify-content-center">
@@ -253,11 +255,11 @@
             </div> <!-- row -->
         </div> <!-- conteiner -->
     </section>
-
+{% endblock %}
     <!--====== PRICING PART ENDS ======-->
-    
-     <!--====== CALL TO ACTION PART START ======-->
 
+    <!--====== CALL TO ACTION PART START ======-->
+{% block section %}
     <section id="call-to-action" class="call-to-action">
         <div class="call-action-image">
             <img src="{{ url_for('static', filename='assets/images/people_boxes.jpg') }}" alt="call-to-action">
@@ -279,11 +281,12 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
+{% endblock %}
 
     <!--====== CALL TO ACTION PART ENDS ======-->
     
     <!--====== CONTACT PART START ======-->
-
+{% block contact %}
     <section id="contact" class="contact-area">
         <div class="container">
             <div class="row justify-content-center">
@@ -344,7 +347,7 @@
     </section>
 
     <!--====== CONTACT PART ENDS ======-->
-
+{% endblock %}
     <!--====== FOOTER PART START ======-->
 
     <footer id="footer" class="footer-area">
