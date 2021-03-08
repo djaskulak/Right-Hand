@@ -13,9 +13,15 @@ def index():
 def info():
     return render_template('products.html')
 
+
 @app.route('/submittal')
 def job():
     return render_template('thirdpage.html')
+
+
+@app.route('/apply')
+def apply():
+    return render_template('apply.html')
 
 
 # -------------------------------- END -------------------------------
