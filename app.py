@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, request, redirect
 
 app = Flask(__name__)
 
@@ -14,14 +14,11 @@ def info():
     return render_template('products.html')
 
 
-@app.route('/submittal')
-def job():
-    return render_template('thirdpage.html')
+# Need to change the following routes 
 
-
-@app.route('/apply')
+@app.route('/apply', methods=['POST', 'GET'])
 def apply():
-    return render_template('partner.html')
+        return render_template('partner.html')
 
 
 # -------------------------------- END -------------------------------

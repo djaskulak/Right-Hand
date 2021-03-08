@@ -1,36 +1,59 @@
 {% extends 'Inheritance.html' %}
 
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/partner.css') }}">
 {% block details %}
-<h1>Hello, nice to meet you!</h1>
-<form action="/apply" method="POST">
-    <fieldset>
-        <legend>Please fill out form below:</legend>
 
-        <label for="b_name">What is your business name?</label>
-        <input type="text" name="b_name" id="b_name">
-        <br><br>
+<head>
+  <title> Sign Up </title>
+</head>
+
+<div id="bigbranch"> 
+  <h1>Hello, nice to meet you!</h1>
+    <form action="/apply" method="POST">
+      <fieldset>
+          <legend>Please fill out form below:</legend>
+
+          <label for="first_name">What is your first name?</label>
+
+          <input type="text" name="first_name" id="first_name">
+
+          <br><br>
         
-        <label for="last_name">What is your last name?</label>
-        <input type="text" name="b_name" id="last_name">
-        <br><br>
+          <label for="last_name">What is your last name?</label>
+
+          <input type="text" name="last_name" id="last_name">
+
+          <br><br>
         
-        <label for="email">What is your email?</label>
-        <input type="text" name="email" id="email">
-        <br><br>
+          <label for="email">What is your email?</label>
 
-        <label for="location">Where are you located?</label>
-        <input type="text" name="location" id="location">
-        <br><br>
+          <input type="text" name="email" id="email">
 
-        <label for="category">:What resource would you like to donate?</label>
+          <br><br>
 
-        <select name="category" id="category">
-          <option value="food">Food</option>
-          <option value="clothing">Clothing</option>
-          <option value="hygiene">Hygiene Products</option>
-          <option value="miscellaneous">Other</option>
-        </select>
-        <input type="submit" name="submit">
-    </fieldset>
-</form>
+          <label for="location">Where are you located?</label>
+
+          <input type="text" name="location" id="location">
+
+          <br><br>
+
+          <label for="category">:What resource would you like to donate?</label>
+
+          <select name="category" id="category">
+
+            <option value="food">Food</option>
+
+            <option value="clothing">Clothing</option>
+
+            <option value="hygiene">Hygiene Products</option>
+
+            <option value="miscellaneous">Other</option>
+
+          </select>
+
+          <input type="submit" name="submit">
+
+      </fieldset>
+    </form>
+</div>
 {% endblock %}
