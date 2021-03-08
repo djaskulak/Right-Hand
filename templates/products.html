@@ -1,0 +1,127 @@
+{% extends 'Inheritance.html' %}
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/products.css') }}">
+
+{% block details %}
+
+<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <!-- Carousel Content -->
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='assets/images/Bag.jpg') }}" alt="" class="w-100">
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-8 bg-custom d-none d-md-block py-3 px-0" id="carousel-title">
+                            <p>Real Items</p>
+                            <div class="border-top border-secondary w-50 mx-auto my-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="{{ url_for('static', filename='assets/images/Real_People_Children.jpg') }}" alt="" class="w-100">
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-8 bg-custom d-none d-md-block py-3 px-0">
+                            <h7>Real People</h7>
+                            <div class="border-top border-secondary w-50 mx-auto my-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="{{ url_for('static', filename='assets/images/Woman.jpg') }}" alt="" class="w-100">
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-8 bg-custom d-none d-md-block py-3 px-0">
+                            <p>Real change</p>
+                            <div class="border-top border-secondary w-50 mx-auto my-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Carousel Content -->
+
+
+    <!-- Previous & Next Buttons -->
+    <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="fas fa-arrow-left fa-2x"></span>
+    </a>
+
+    <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+        <span class="fas fa-arrow-right fa-2x"></span>
+    </a>
+    <!-- End Previous & Next Buttons -->
+
+
+</div>
+
+<!-- Two Column Section -->
+
+<div class="container my-5">
+    <div class="row py-4">
+
+        <div class="col-lg-4 mb-4 my-lg-auto">
+            <h1 class="text-dark font-weight-bold mb-3"> Indoor Plants </h1>
+            <p class="mb-4">Indoor plants are a common favorite of beginner botonist who wish to capture
+                the spirit of nature. These plants are usually succulents, and require very little maintenance 
+                to handle while adding a lively wilderness to any setting
+            </p>
+        </div>
+
+        <div class="col-lg-8"><img src="{{ url_for('static', filename='assets/images/Jeans.jpg') }}" alt="" class="w-100"></div>
+
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row py-4">
+
+        <div class="col-lg-4 mb-4 my-lg-auto">
+            <h1 class="text-dark font-weight-bold mb-3"> Outdoor Plants </h1>
+            <p class="mb-4">Outdoor plants are a common favorite of a serious botonist who has grown to handle
+                the variety of plants nature has to offer. Though difficult to handle and maintain, their illustrious
+                colors and beauty captures the soul of all those who look upon them
+            </p>
+        </div>
+
+        <div class="col-lg-8"><img src="{{ url_for('static', filename='assets/images/Rocking_Chair.jpg') }}" alt="" class="w-100"></div>
+
+    </div>
+</div>
+
+<div class="container my-5">
+    <div class="row py-4">
+
+        <div class="col-lg-4 mb-4 my-lg-auto">
+            <h1 class="text-dark font-weight-bold mb-3"> Outdoor Plants </h1>
+            <p class="mb-4">Outdoor plants are a common favorite of a serious botonist who has grown to handle
+                the variety of plants nature has to offer. Though difficult to handle and maintain, their illustrious
+                colors and beauty captures the soul of all those who look upon them
+            </p>
+        </div>
+
+        <div class="col-lg-8"><img src="{{ url_for('static', filename='assets/images/Canned_Goods.jpg') }}" alt="" class="w-100"></div>
+
+    </div>
+</div>
+<!-- End Two Column Section -->
+
+
+
+
+
+
+
+{% endblock %}
+

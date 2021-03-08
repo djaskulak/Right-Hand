@@ -976,7 +976,7 @@ p.form-message.error {
 /* CAROUSEL ITEMS FOR SECOND PAGE */
 #carousel{
     box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
-  
+    padding-bottom: 20px;
   }
   
   .carousel-inner {
@@ -1005,7 +1005,7 @@ p.form-message.error {
     border-radius: 1rem;
   }
   
-  .carousel-caption h7 {
+  .carousel-caption{
     font-size: 22rem;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -1030,15 +1030,11 @@ p.form-message.error {
   .fixed-background{
     padding: 10rem 0;
   }
-
-  h7 {
-      color: white;
-      font-family: "Lilita One";
-      font-weight: 700;
-      font-size: 30rem;
-    }
   
-  
+  #carousel-title {
+    font-size: 100rem;
+    color: red;
+  }
   /* Devices under 1199px (xl) */
   @media (max-width: 1199.98px) {
   
