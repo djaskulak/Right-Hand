@@ -21,7 +21,7 @@ def job():
 
 @app.route('/apply')
 def apply():
-    return render_template('apply.html')
+    return render_template('partner.html')
 
 
 # -------------------------------- END -------------------------------
